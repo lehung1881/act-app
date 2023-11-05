@@ -1,0 +1,179 @@
+/* Icon base*/
+.ic {
+  background: url('../image/Sprite.svg') no-repeat;
+  cursor: pointer;
+}
+.ic2 {
+  background: url('../image/Sprite2.svg') no-repeat;
+  cursor: pointer;
+}
+
+/* Icon weight*/
+.ic-8{
+  width: 8px;
+  height: 8px;
+  min-width: 8px;
+  min-height: 8px;
+}
+
+.ic-16{
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+
+.ic-20{
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.ic-24{
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+}
+
+.ic-32{
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.ic-48{
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+}
+
+.ic-12{
+  width: 12px;
+  height: 12px;
+  min-width: 12px;
+  min-height: 12px;
+}
+
+.ic-56{
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  min-height: 56px;
+}
+
+.ic-14{
+  width: 14px;
+  height: 14px;
+  min-width: 14px;
+  min-height: 14px;
+}
+
+.ic-22{
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  min-height: 22px;
+}
+.ic-10{
+  width: 10px;
+  height: 10px;
+  min-width: 10px;
+  min-height: 10px;
+}
+.ic-18{
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  min-height: 18px;
+}
+
+/* Icon position */
+.ic-zalo {
+  background-position: -1322px -31px;
+}
+
+.ic-warning-48 {
+  background-position: -592px -456px;
+}
+
+.ic-arrow-up--white {
+  background-position: -848px -359px;
+}
+
+.ic-arrow-dropdown--black {
+  background-position: -560px -359px;
+}
+
+.ic-arrow-dropdown {
+  background-position: -560px -359px;
+}
+
+.ic2-radio-enable {
+  background-position: -266px -26px;
+}
+.ic2-radio-disable {
+  background-position: -242px -26px;
+}
+.ic-btn-add {
+  background-position: -32px -312px;
+}
+
+.ic-close {
+  background-position: -144px -144px;
+}
+
+.ic-help {
+  background-position: -88px -144px;
+}
+
+.ic-sidebar-dashboard {
+  background-position: -30px -1628px;
+}
+
+.ic-sidebar-cash {
+  background-position: -73px -1628px;
+}
+
+.ic-sidebar-pu {
+  background-position: -161px -1628px;
+}
+
+.ic-sidebar-sale {
+  background-position: -204px -1628px;
+}
+
+.ic-sidebar-finance {
+  background-position: -204px -1664px;
+}
+
+.ic-sidebar-category {
+  background-position: -764px -1661px;
+}
+
+.ic-sidebar-opn {
+  background-position: -854px -1660px;
+}
+
+.ic-chevron-left--primary {
+  background-position: -224px -360px;
+}
+
+.ic-excel__nav {
+  background-position: -704px -200px;
+}
+
+.ic-excel__nav:hover {
+  background-position: -704px -256px;
+}
+
+.ic-refresh {
+  background-position: -423px -201px;
+}
+
+.ic-refresh:hover {
+  background-position: -1096px -88px;
+}

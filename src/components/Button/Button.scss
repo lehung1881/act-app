@@ -1,0 +1,36 @@
+.primary {
+    background-color: var(--primary-color);
+}
+
+.line {
+    width: 1px;
+    height: 65%;
+    position: absolute;
+    left: -1px;
+    background-color: white;
+}
+.btn {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+
+    &:hover {
+        opacity: 0.85;
+    }
+
+    &:active {
+        opacity: 1;
+    }
+}
+.btn-hover {
+    background-color: var(--primary-btn--hover-background-color);
+}
+
+.dropdownMenu {
+    border: 1px solid var(--btn-border-color);
+    top: calc(100% + 1px);
+    user-select: none;
+}
+.dropdownItem:hover {
+    background-color: var(--main-background-color);
+}

@@ -1,0 +1,103 @@
+@import url('./assets/common/icon.css');
+@import url('./assets/common/font.css');
+@import url('./assets/common/common.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --primary-color: #2ca01c;
+  --btn-border-color: #babec5;
+  --main-background-color: #eceef1;
+  --control-border-color--active: #2ca01c;
+  --primary-btn-background-color: #2ca01c;
+  --primary-btn-background-color-opacity: rgba(44, 160, 28, 0.2);
+  --primary-btn--hover-background-color: #35bf22;
+  --primary-btn--active-background-color: #248b15;
+  --primary-btn--focus-background-color: #2ca01c;
+  --button__footer-border-color: #6b6c72;
+  --button__footer-background-color--hover: #2f3034;
+  --button__footer-border-color--hover: #6b6c72;
+  --button__footer-background--active: #27282b;
+  --button__footer-border-color--active: #6b6c72;
+  --button__footer-background-color--focus: #27282b;
+  --dropdown__item--hover-text-color: #2ca01c;
+  --dropdown__footer-background-color--hover: #4b4c51;
+  --dropdown__footer-background-color--active: #4b4c51;
+  --upload-border-color: #babec5;
+  --tab__item--active-text-color: #2ca01c;
+  --tab__border-color: #d4d7dc;
+  --tab__router-background-color: #eceef1;
+  --datepicker-selected-day-color: #08bf1e;
+  --datepicker-selected-day-background-color: rgba(44, 160, 28, 0.2);
+  --grid-header-background-color: #e5e8ec;
+  --grid-body__line-hover-background-color: #f2f9ff;
+  --grid-body__line-selected-background-color: #e5f3ff;
+  --footer-background-color: #38393d;
+  --slide-bar-background-color: #393a3d;
+  --slide-bar--active-border-color: #2ca01c;
+  --grid-header-border-bottom-color: #d4d7dc;
+  --grid-header-border-left-color: #c7c7c7;
+  --btn-text-color-black: #111111;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  outline: none;
+  text-transform: none;
+  text-decoration: none;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  text-decoration-thickness: initial;
+  -webkit-text-decoration-style: initial;
+  text-decoration-style: solid;
+  -webkit-text-decoration-color: initial;
+  text-decoration-color: initial;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #b8bcc3;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.app-content {
+  background-color: var(--main-background-color);
+}
+
+.app-sidebar {
+  background-color: var(--slide-bar-background-color);
+}
+
+.sidebar-item:hover {
+  background-color: #616164;
+}
+.sidebar-expand {
+  width: 196px;
+}
+
+.sidebar-collapse {
+  width: 52px;
+}
+
+.sidebar-active::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 6px;
+  height: 38px;
+  background-color:#08bf1e;
+}
+
+.sidebar-item:has(.sidebar-active) {
+  background-color: rgba(212, 215, 220, 0.2);
+}
+

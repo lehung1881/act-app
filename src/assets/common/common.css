@@ -1,0 +1,47 @@
+.text-pr-hover:hover {
+  color: var(--dropdown__item--hover-text-color);
+}
+.label-color{
+  color: #111111;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.border-field {
+  border: 1px solid var(--btn-border-color);
+}
+
+.hover-combo:hover {
+  background-color: #e0e0e0;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input--readonly {
+  background-color: #eff0f2;
+}
+.fixed-full {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.popup-line-footer {
+  border-top: 1px solid var(--btn-border-color);
+}
+
+.separation-line {
+  margin: 5px 18px;
+  border-top: 0.5px solid rgb(255, 255, 255);
+  opacity: 0.3;
+}

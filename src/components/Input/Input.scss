@@ -1,0 +1,30 @@
+.input-text {
+  border: 1px solid var(--btn-border-color);
+  font-size: 13px;
+  height: 28px;
+  box-sizing: border-box;
+  position: relative;
+
+  &:focus {
+    border: 1px solid var(--control-border-color--active);
+  }
+  &::placeholder {
+    font-style: italic;
+  }
+}
+.input-error{
+  z-index: 999;
+
+  &::before {
+    background-color: #f06262;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 1px;
+    z-index: 998;
+    content: '';
+    border-radius: 1px;
+    left: 50%;
+    transform: rotate(45deg) translateX(-50%);
+  }
+}

@@ -1,0 +1,13 @@
+.arrow-dropdown--open {
+  transform: rotate(180deg);
+  transition: transform .3s linear;
+}
+.arrow-dropdown--close {
+  transform: rotate(0deg);
+  transition: transform .3s linear;
+}
+
+
+.combo-container:has(.input-combo:focus) {
+  border: 1px solid var(--control-border-color--active);
+}
